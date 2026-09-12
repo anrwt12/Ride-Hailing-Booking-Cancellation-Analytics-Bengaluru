@@ -8,8 +8,8 @@
 -- driver-not-found bookings, success rate, failure rate, 
 -- total booking value, and average booking value. 
 
--- 1. Total Bookings -- Find the total number of ride bookings.
-
+-- 1. Total Bookings 
+-- Find the total number of ride bookings.
 SELECT COUNT(booking_id) AS total_bookings 
 FROM rides;
 
