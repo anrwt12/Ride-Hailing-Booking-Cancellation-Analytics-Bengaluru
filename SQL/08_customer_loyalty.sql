@@ -70,4 +70,5 @@ SELECT
     success_rank
 FROM Customer_Rank 
 WHERE  repeat_booking_count >= 2 AND success_rate >= 70
-ORDER BY   success
+ORDER BY success_rate DESC, total_booking DESC;
+
